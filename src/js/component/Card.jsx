@@ -1,8 +1,20 @@
 import React from "react";
 
+let cardData = [{
+    image: "https://theguideliverpool.com/wp-content/uploads/2020/08/js1-wolf-cubs-ksp-aug20-202082020-2690.jpg",
+    title: "Card title",
+    description: "Words are magic.",
+    button: "Click me!",
+}, {
+    image: "",
+    title: "Card title",
+    description: "Words are magic.",
+    button: "Click me!",
+}]
+
 function Card () {
     return(
-        <div className="card" style={{width: "18rem;"}}>
+        <div className="card mx-2" style={{width: "18rem;"}}>
             <img src="https://theguideliverpool.com/wp-content/uploads/2020/08/js1-wolf-cubs-ksp-aug20-202082020-2690.jpg" className="card-img-top" alt="..."/>
             <div className="card-body">
                 <h5 className="card-title">Card title</h5>
